@@ -10,15 +10,22 @@ import React, { useState } from 'react';
 
 function ExerciseThree() {
   return (
-    <section>
-      <h2 className="text-2xl text-bold">Exercise 4</h2>
-      <form>
-        <label>
-          Controlled Input:
-          <input type="text" />
+    <section className="bg-slate-200 p-2 rounded-lg">
+      <h2 className="text-2xl mb-3">Exercise 4</h2>
+      <form className="mb-2">
+        <label className="block font-bold mb-1" htmlFor="input">
+          Controlled Input
         </label>
+        <input
+          type="text"
+          id="input"
+          className="p-1 rounded-md border border-solid border-slate-400"
+        />
       </form>
-      <p>Currently typing: ?</p>
+      <p>
+        <strong>Currently typing</strong>
+        <br /> ?
+      </p>
     </section>
   );
 }

@@ -9,9 +9,9 @@ import React from 'react';
 
 function ExerciseOne() {
   return (
-    <section>
-      <h2 className="text-2xl text-bold">Exercise 1</h2>
-      <button className="bg-gray-400" type="button">
+    <section className="bg-slate-200 p-2 rounded-lg">
+      <h2 className="text-2xl mb-3">Exercise 1</h2>
+      <button className="bg-orange-600 text-white rounded-lg p-2" type="button">
         Console Log Button
       </button>
     </section>

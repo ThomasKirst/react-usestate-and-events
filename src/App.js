@@ -6,14 +6,11 @@ import ExerciseFour from './components/04-exercise';
 
 function App() {
   return (
-    <main className="">
+    <main className="flex flex-col gap-4 p-5">
       <h1 className="text-3xl font-bold">useState and Events Exercise</h1>
       <ExerciseOne />
-      <hr />
       <ExerciseTwo />
-      <hr />
       <ExerciseThree />
-      <hr />
       <ExerciseFour />
     </main>
   );
